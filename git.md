@@ -43,10 +43,12 @@ Git Branch Merge
 ---------------------------------------------------------------------------------------------
 Remove Local Repository Git 
     git remote remove origin
+Remove list     
+    git remote -v
 Push Local Repository to GitHub
     git remote add origin URL
         Chúng tôi thấy rằng nó origin được thiết lập thành w3schools-test kho lưu trữ " " ban đầu , chúng tôi cũng muốn thêm kho lưu trữ của riêng mình fork.
-        Đầu tiên, chúng tôi renamelà bản gốc origin remote:
+        Đầu tiên, chúng tôi rename là bản gốc origin remote:
             git remote rename origin [upstream]
             Lưu ý: Theo quy ước đặt tên Git, bạn nên đặt tên cho kho lưu trữ của riêng mình origin và đặt tên cho kho lưu trữ mà bạn đã phân nhánh upstream
             Bây giờ chúng tôi có 2 điều khiển từ xa:
@@ -71,7 +73,7 @@ Pulling to Keep up-to-date with Changes
         git diff origin/master
 Git Merge
     merge kết hợp nhánh hiện tại với một nhánh được chỉ định.
-    Chúng tôi đã xác nhận rằng các bản cập nhật đúng như mong đợi và chúng tôi có thể hợp nhất chi nhánh hiện tại của mình ( master) với origin/master:
+    Chúng tôi đã xác nhận rằng các bản cập nhật đúng như mong đợi và chúng tôi có thể hợp nhất chi nhánh hiện tại của mình (master) với origin/master:
         git merge origin/master
 Git Pull
     Nhưng điều gì sẽ xảy ra nếu bạn chỉ muốn cập nhật kho lưu trữ cục bộ của mình mà không thực hiện tất cả các bước đó?
