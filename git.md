@@ -48,7 +48,7 @@ Push Local Repository to GitHub
         Chúng tôi thấy rằng nó origin được thiết lập thành w3schools-test kho lưu trữ " " ban đầu , chúng tôi cũng muốn thêm kho lưu trữ của riêng mình fork.
         Đầu tiên, chúng tôi renamelà bản gốc origin remote:
             git remote rename origin [upstream]
-            Lưu ý: Theo quy ước đặt tên Git, bạn nên đặt tên cho kho lưu trữ của riêng mình originvà đặt tên cho kho lưu trữ mà bạn đã phân nhánh upstream
+            Lưu ý: Theo quy ước đặt tên Git, bạn nên đặt tên cho kho lưu trữ của riêng mình origin và đặt tên cho kho lưu trữ mà bạn đã phân nhánh upstream
             Bây giờ chúng tôi có 2 điều khiển từ xa:
                 origin- của riêng chúng tôi fork, nơi chúng tôi có quyền đọc và ghi
                 upstream - bản gốc, nơi chúng tôi có quyền truy cập chỉ đọc
