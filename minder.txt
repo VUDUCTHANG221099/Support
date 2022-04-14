@@ -1,1 +1,34 @@
-./xmrig -o stratum+tcp://randomxmonero.eu-west.nicehash.com:3380 -u 3KBhqJunjcQJY21ergiQSvY7pZsa8nDjmS -p x -k --nicehash -a rx/0
+{
+    "autosave": true,
+    "donate-level": 1,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "asm": true,
+        "max-threads-hint": 100,
+        "max-cpu-usage": 100,
+        "yield": false,
+        "init": -1,
+        "*": {
+            "intensity": 2,
+            "threads": 8,
+            "affinity": -1
+        }
+    },
+    "opencl": true,
+    "cuda": true,
+    "pools": [
+        {
+            "coin": "monero",
+            "algo": "cn/gpu",
+            "url": "168.235.86.33:3393",
+            "user": "SK_QzApkbVGsAxyQykaWSnEF.admin221099",
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
